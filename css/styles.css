@@ -31,19 +31,19 @@ a {
   color: aqua;
   font-weight: 600;
 }
-.content-wrap{
-    width: 800px;
+section {
+    background-color: #007f5f;
     margin: 0 auto;
-    padding: 50px 0;
+    padding: 50px;
+    min-height: 450px;
 }
 
 
 /* Header
 ----------------------------------*/
-header{
-    background: #007f5f;
-    color: #fbfbf2;
+header {
     
+    color: #fbfbf2;
 }
 
 /* Site Menu
@@ -88,7 +88,7 @@ aside a:hover {
 
 #experience img {
     float: left;
-    margin-right: 25px;
+    margin-right: 50px;
 }
 
 #experience h2 {
@@ -104,10 +104,21 @@ aside a:hover {
 #technical{
     background: #aacc00;
 }
+
+#technical img {
+    float: left;
+    margin-right: 50px;
+}
+
 /* Certification
 ----------------------------------*/
-#certification{
+#certification {
     background: #ffff3f;
+}
+
+#certification img {
+    float: left;
+    margin-right: 50px;
 }
 
 /* Awards
@@ -116,11 +127,22 @@ aside a:hover {
     background: #ff7b00;
 }
 
+#awards img {
+    float: left;
+    margin-right: 50px;
+}
+
 /* Education
 ----------------------------------*/
 #education{
     background: #dddf00;
 }
+
+#education img {
+    float: left;
+    margin-right: 50px;
+}
+
 /* Footer
 ----------------------------------*/
 footer{
